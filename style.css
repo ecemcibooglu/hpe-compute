@@ -1,0 +1,186 @@
+.hpe-bg {
+    background-image: url("https://assets.channext.eu/hpe/2023/compute/img/bg.png");
+    background-size: cover;
+    background-position: 100% 100%;
+    }
+    
+    .form-bg {
+    background-color: #05a881;
+    color: white!important;
+    }
+    
+    
+    .hpe-btn  {
+    background-color: #05a881;
+    color: white!important;
+    border: 2px solid #05a881!important;
+    border-radius: 20px!important;
+    }
+    
+    .hpe-btn:hover  {
+    background-color: transparent;
+    color: #05a881!important;
+    border: 2px solid #05a881!important;
+    border-radius: 20px!important;
+    }
+    
+    .col-12 p {
+    font-size: 18px!important;
+    margin-top: 1rem!important;
+    }
+    
+    body {
+        color: #212529!important;
+        font-size: 18px!important;
+    }
+    
+     li {
+        list-style: none;
+          font-size: 18px!important;
+        color: #212529!important;
+      }
+      
+    li::before {
+        content: "\2022"; 
+        color: #05a881!important;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+      }
+      
+    h2, h3, h4, h5 {
+    color: #05a881!important;
+    font-weight: 700!important;
+    }
+    
+    h1 {
+        color: #000000!important;
+        font-size: 60px!important;
+    }
+    
+    h2 {
+        font-size: 40px!important;
+        line-height: 45px;
+        }
+        
+    @media screen and (max-width: 1200px) {
+       .white-bg {
+    height: 140px!important;
+    } 
+    }
+    
+    @media screen and (max-width: 992px) {
+     h1 {
+            font-size: 50px!important;
+        } 
+        
+        .mb-mobile {
+        margin-bottom: 5%;
+        }
+        
+        .desktop-only {
+        display: none;
+        }
+        
+           .white-bg {
+    height: 120px!important;
+    } 
+    
+        
+        .hpe-5-bg {
+    background-size: 100% 100%!important; 
+    }
+    }
+    
+    
+    @media screen and (max-width: 768px) {
+     h1 {
+            font-size: 40px!important;
+        } 
+        
+           .white-bg {
+    height: 120px!important;
+    } 
+    }
+    
+    .white-bg {
+    background-color: white;
+    border-radius: 20px;
+    height: 120px;
+    }
+    
+    .hpe-5-bg {
+    background-image:url('https://assets.channext.eu/hpe/2023/compute/img/bg.png');
+    background-position: bottom;
+    background-size: 100% 71%; 
+    background-repeat: no-repeat;
+    }
+    
+    /* Form */
+    
+    form input {
+        margin: 0.3rem 0;
+        border: none;
+        padding: 0 20px;
+        background: #fff;
+        border: 2px solid #fff;
+        border-radius: 6px;
+    }
+    
+    form input:not([type="checkbox"]) {
+        width: 85%;
+        height: 45px;
+    }
+    
+    form label {
+        display: none;
+    }
+    
+    form label[for="fieldinformation"] {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    
+    form input[type="checkbox"] {
+        width: 2%;
+    }
+    
+    form input:focus {
+        border: 2px solid #f7f7f7;
+        background: #fff;
+        outline: 0;
+    }
+    
+    form button {
+        margin-top: 1.5rem;
+        background-color: white!important;
+        color: #05a881!important;
+        border: 2px solid white!important;
+        border-radius: 20px!important;
+    }
+    
+    form button:hover {
+        margin-top: 1.5rem;
+        background-color: transparent!important;
+        color: white!important;
+        border: 2px solid white!important;
+        border-radius: 20px!important;
+    }
+    
+    
+    form input[type="checkbox"] {
+        margin-top: 1rem;
+    }
+    
+    .fieldinformation.checkbox {
+        margin-bottom: 2rem;
+    }
+    
+    .checkbox label {
+        display: inline;
+    }
+    
+    .fieldapplication_area label[for="fieldapplication_area"] {
+        width: 100%;
+        display: block;
+    }
